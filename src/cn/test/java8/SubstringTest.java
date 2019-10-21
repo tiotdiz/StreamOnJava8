@@ -4,7 +4,7 @@ public class SubstringTest {
 
 	public static void main(String[] args) {
 		/**
-		 * ²âÊÔsubstringµÄÇø¼ä
+		 * æµ‹è¯•substringçš„åŒºé—´
 		 */
 		String string = new String("");
 		String message = string.join("-", "Hello", "World");
@@ -14,7 +14,7 @@ public class SubstringTest {
 		System.out.println(message.substring(0, message.length() - 1).length());
 
 		/**
-		 * ²âÊÔ½á¹û£º[)
+		 * æµ‹è¯•ç»“æžœï¼š[)
 		 * beginIndex the beginning index, inclusive
 		 * endIndex the ending index, exclusive
 		 */
